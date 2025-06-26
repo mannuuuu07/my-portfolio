@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Manmohan Mahato - Web Developer, Designer, and Freelancer. View my projects, contact me, and explore my work.">
+  <title>Manmohan Mahato - Portfolio</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    nav {
+      margin-top: 1.5rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 30px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+    .header-icons {
+      margin-top: 1.5rem;
+    }
+    .header-icons a {
+      margin: 0 10px;
+      color: white;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .header-icons a:hover {
+      color: #fdd835;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #333;
+      text-align: center;
+      font-size: 2.2rem;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #764ba2;
+      margin: 10px auto;
+      border-radius: 4px;
+    }
+    .project {
+      background: white;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+    }
+    form {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      margin-bottom: 1.2rem;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 1rem;
+      background: #764ba2;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background: #5b3993;
+    }
+    #response {
+      text-align: center;
+      margin-top: 1rem;
+      color: green;
+      font-weight: bold;
+    }
+    .social-links {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .social-links a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #764ba2;
+      font-size: 1.8rem;
+      transition: color 0.3s;
+    }
+    .social-links a:hover {
+      color: #333;
+    }
+    .contact-details {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 1.1rem;
+      line-height: 2;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+      font-size: 0.9rem;
+    }
+    footer .social-links {
+      margin-top: 1rem;
+    }
+    footer .social-links a {
+      color: white;
+      font-size: 1.5rem;
+      margin: 0 10px;
+    }
+    footer .social-links a:hover {
+      color: #fdd835;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 style="font-size: 3rem;">Manmohan Mahato</h1>
+    <p style="font-size: 1.2rem;">Web Developer | Designer | Freelancer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="header-icons">
+      <a href="https://www.linkedin.com/in/manmohan-mahato-6a7569311/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mannuuuu07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/mannuu_7" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align: center; font-size: 1.1rem; line-height: 1.8; max-width: 700px; margin: auto;">
+      I'm <strong>Manmohan Mahato</strong>, a dedicated and enthusiastic web developer based in Jamshedpur, Jharkhand.
+      I specialize in building responsive, modern, and user-friendly websites using HTML, CSS, and JavaScript. 
+      I’m passionate about transforming ideas into interactive digital experiences and constantly learning new technologies to improve my craft.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>1. Portfolio Website</h3>
+      <img src="portfolio-thumbnail.jpg" alt="Portfolio Website" style="width:100%; border-radius:10px; margin-bottom:1rem;">
+      <p>A sleek personal portfolio site to showcase my skills and contact info. Built using HTML, CSS, and JavaScript.</p>
+    </div>
+
+    <div class="project">
+      <h3>2. E-commerce Landing Page</h3>
+      <img src="ecommerce-thumbnail.jpg" alt="E-commerce Page" style="width:100%; border-radius:10px; margin-bottom:1rem;">
+      <p>A responsive front page featuring products and categories. Built using Bootstrap and vanilla JS.</p>
+    </div>
+
+    <div class="project">
+      <h3>3. To-Do Web App</h3>
+      <img src="todo-thumbnail.jpg" alt="To-Do App" style="width:100%; border-radius:10px; margin-bottom:1rem;">
+      <p>A minimalist app to manage tasks in real-time. Data is stored using local storage.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <!-- You can replace the action URL with your Formspree form link -->
+    <form onsubmit="sendMessage(event)">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="response"></p>
+
+    <div class="contact-details">
+      <p><strong><i class="fas fa-phone"></i> Phone:</strong> <a href="tel:6299625653">6299625653</a></p>
+      <p><strong><i class="fas fa-envelope"></i> Email:</strong> <a href="mailto:mannupersonal494@gmail.com">mannupersonal494@gmail.com</a></p>
+      <p><strong><i class="fas fa-map-marker-alt"></i> Location:</strong> Jamshedpur, Jharkhand</p>
+      <p><strong><i class="fab fa-whatsapp"></i> WhatsApp:</strong> <a href="https://wa.me/916299625653" target="_blank">Chat on WhatsApp</a></p>
+      <p><strong><i class="fas fa-id-card"></i> Contact File:</strong> <a href="ManmohanMahato.vcf" download>Download My Contact</a></p>
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/manmohan-mahato-6a7569311/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mannuuuu07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/mannuu_7" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manmohan Mahato. Designed with passion and purpose.</p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/manmohan-mahato-6a7569311/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/mannuuuu07" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/mannuu_7" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script>
+    function sendMessage(event) {
+      event.preventDefault();
+      const name = document.getElementById("name").value;
+      document.getElementById("response").textContent = Thank you, ${name}! Your message has been sent.;
+      document.getElementById("name").value = "";
+      document.getElementById("email").value = "";
+      document.getElementById("message").value = "";
+    }
+  </script>
+</body>
+</html>
